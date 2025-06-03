@@ -1,0 +1,6 @@
+{
+  "test_settings": {
+    "headless_mode": true,
+    "browser": "chrome"
+  }
+}
