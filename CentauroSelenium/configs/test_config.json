@@ -1,6 +1,6 @@
 {
   "test_settings": {
-    "headless_mode": true,
+    "headless_mode": false,
     "browser": "chrome"
   }
 }

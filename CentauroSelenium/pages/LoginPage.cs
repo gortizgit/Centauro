@@ -23,24 +23,57 @@ namespace CentauroSelenium.Pages
             _loginButtonXpath = locators.login_page.login_button;
         }
 
-        public void EnterUsername(string username)
+        private bool WaitForElementVisible(string xpath)
         {
-            var usernameField = _wait.Until(drv => drv.FindElement(By.XPath(_usernameXpath)));
-            usernameField.Clear();
-            usernameField.SendKeys(username);
+            try
+            {
+                return _wait.Until(driver =>
+                {
+                    var element = driver.FindElement(By.XPath(xpath));
+                    bool isDisplayed = (bool)((IJavaScriptExecutor)driver)
+                        .ExecuteScript("return arguments[0].offsetParent !== null && arguments[0].offsetWidth > 0 && arguments[0].offsetHeight > 0;", element);
+                    return isDisplayed;
+                });
+            }
+            catch
+            {
+                return false;
+            }
         }
 
-        public void EnterPassword(string password)
+        public bool EnterUsername(string username)
         {
-            var passwordField = _wait.Until(drv => drv.FindElement(By.XPath(_passwordXpath)));
-            passwordField.Clear();
-            passwordField.SendKeys(password);
+            if (WaitForElementVisible(_usernameXpath))
+            {
+                var usernameField = _driver.FindElement(By.XPath(_usernameXpath));
+                usernameField.Clear();
+                usernameField.SendKeys(username);
+                return true;
+            }
+            return false;
         }
 
-        public void ClickLogin()
+        public bool EnterPassword(string password)
         {
-            var loginButton = _wait.Until(drv => drv.FindElement(By.XPath(_loginButtonXpath)));
-            loginButton.Click();
+            if (WaitForElementVisible(_passwordXpath))
+            {
+                var passwordField = _driver.FindElement(By.XPath(_passwordXpath));
+                passwordField.Clear();
+                passwordField.SendKeys(password);
+                return true;
+            }
+            return false;
+        }
+
+        public bool ClickLogin()
+        {
+            if (WaitForElementVisible(_loginButtonXpath))
+            {
+                var loginButton = _driver.FindElement(By.XPath(_loginButtonXpath));
+                loginButton.Click();
+                return true;
+            }
+            return false;
         }
     }
 }

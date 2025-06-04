@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CentauroSelenium")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62bdaa4caee804150d294484964a2360c3b1083f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e2b86d22fcdea1a69f90086f70645a3338cb92f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CentauroSelenium")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CentauroSelenium")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

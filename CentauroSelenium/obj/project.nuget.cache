@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fd1JMcrMJZoDrI5kcBnDnaFEKJqIa4sMx8nXh4EopFH0priZXQf1odXk/dL+d1CJ8U9kUOwfBrv02HI/5MJSbg==",
+  "dgSpecHash": "liviKYuanenTk3ni2GYQxQYPOwvPGn5mT1Q7zG+Q3LdtcPSbRCJulZGslP5bAULDPMbAMgf/5TeyGMJpqEVMPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Centauro\\CentauroSelenium\\CentauroSelenium.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\nunit\\4.3.2\\nunit.4.3.2.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\nunit3testadapter\\5.0.0\\nunit3testadapter.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\selenium.support\\4.33.0\\selenium.support.4.33.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\selenium.webdriver\\4.33.0\\selenium.webdriver.4.33.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\selenium.webdriver.chromedriver\\137.0.7151.5500\\selenium.webdriver.chromedriver.137.0.7151.5500.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",

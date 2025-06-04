@@ -32,11 +32,11 @@ namespace CentauroSelenium.Tests
             _driver.Navigate().GoToUrl(_url);
 
             var loginPage = new LoginPage(_driver);
-            loginPage.EnterUsername(_username);
-            loginPage.EnterPassword(_password);
-            loginPage.ClickLogin();
 
-            // Espera dinámica: espera a que la URL cambie y no contenga "Login"
+            Assert.That(loginPage.EnterUsername(_username), Is.True, "No se pudo ingresar el usuario.");
+            Assert.That(loginPage.EnterPassword(_password), Is.True, "No se pudo ingresar la contraseña.");
+            Assert.That(loginPage.ClickLogin(), Is.True, "No se pudo hacer click en el botón de login.");
+
             var wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
             bool loggedIn = wait.Until(drv => !drv.Url.Contains("Login"));
 

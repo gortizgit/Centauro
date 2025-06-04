@@ -10,6 +10,7 @@ C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\nunit.engine.core.dll
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\testcentric.engine.metadata.dll
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\configs\credentials.json
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\configs\test_config.json
+C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\locators\dashboard_locators.json
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\locators\login_locators.json
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\NUnit3.TestAdapter.dll
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\CentauroSelenium.exe
@@ -34,6 +35,7 @@ C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\Microsoft.VisualStudi
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\nunit.framework.dll
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\nunit.framework.legacy.dll
+C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\WebDriver.Support.dll
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\WebDriver.dll
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\cs\Microsoft.Testing.Extensions.Telemetry.resources.dll
 C:\Users\Lenovo\Centauro\CentauroSelenium\bin\Debug\net8.0\de\Microsoft.Testing.Extensions.Telemetry.resources.dll
